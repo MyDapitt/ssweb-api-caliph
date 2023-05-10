@@ -1,5 +1,9 @@
-# FROM node:16.16.0-buster  (nodejs v16)
-FROM ubuntu
+# You can switch the operation system to debian and ubuntu
+FROM ubuntu:lunar
+# Ubuntu latest version
+
+# This Is Docker For Debian's Opearing System (Debian Tester)
+# debian:bookworm
 
 # from: https://github.com/puppeteer/puppeteer/blob/main/docs/troubleshooting.md
 # setup chrome from ubuntu and configure.
